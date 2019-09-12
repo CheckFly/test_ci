@@ -1,7 +1,9 @@
 .. role:: python(code)
    :language: python
+  
+|travis| |nbsp| |codecov| |nbsp| |rtd-badge| |nbsp| |pypi-version|
 
-|travis|
+|bmac-button|
 
 ########################################
 Test Travis
