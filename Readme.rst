@@ -1,10 +1,9 @@
 .. role:: python(code)
    :language: python
   
-..image::  https://travis-ci.org/CheckFly/test_ci.svg?branch=master
-|nbsp| |codecov| |nbsp| |rtd-badge| |nbsp| |pypi-version|
+.. image::  https://travis-ci.org/CheckFly/test_ci.svg?branch=master
+      :target: https://travis-ci.org/CheckFly/test_ci
 
-|bmac-button|
 
 ########################################
 Test Travis
