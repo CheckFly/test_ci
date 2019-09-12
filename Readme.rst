@@ -1,7 +1,8 @@
 .. role:: python(code)
    :language: python
   
-|travis| |nbsp| |codecov| |nbsp| |rtd-badge| |nbsp| |pypi-version|
+..image::  https://travis-ci.org/CheckFly/test_ci.svg?branch=master
+|nbsp| |codecov| |nbsp| |rtd-badge| |nbsp| |pypi-version|
 
 |bmac-button|
 
