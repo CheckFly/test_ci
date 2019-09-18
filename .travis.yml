@@ -10,9 +10,11 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install codecov
 # command to run tests
 script:
   - pytest -s --cov=nba_scraper test.py
+  - coverage run test.py 
 
 after_success:
-    - codecov
+    - codecov -t b894e205-3940-45ce-961d-fb78ce0f1f9f
