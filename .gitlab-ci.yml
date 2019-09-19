@@ -9,6 +9,7 @@ job:build:
   script:
     - apt-get update -q -y
     - pip install -r requirements.txt
+    - pip install codecov
 
 job:test:
   stage: test
