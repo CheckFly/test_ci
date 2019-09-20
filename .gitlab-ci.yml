@@ -1,3 +1,5 @@
+image: python:3.7
+
 stages:
   - build
   - test
@@ -5,7 +7,6 @@ stages:
 
 job:build:
   stage: build
-  image: python:3.7
   script:
     - apt-get update -q -y
     - pip install -r requirements.txt
